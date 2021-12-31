@@ -1,0 +1,8 @@
+{
+  "name": "color-discord-bot",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0"
+  }
+}
