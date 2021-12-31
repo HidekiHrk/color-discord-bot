@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES6"
+    ],
+    "module": "es6",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "ES6",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+  },
+  "files": ["src/index.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
